@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recherche de personnes</title>
+    <style>
+        /* Styles CSS pour la barre de recherche */
+        .search-bar {
+            display: flex;
+            align-items: center;
+        }
+
+        .search-bar input[type="text"] {
+            width: 300px;
+            padding: 8px;
+            font-size: 16px;
+        }
+
+        .search-bar input[type="submit"] {
+            padding: 8px 16px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Recherche de personnes</h1>
+
+    <form method="GET" action="recherche.php" class="search-bar">
+        <label for="searchTerm">Nom ou prénom :</label>
+        <input type="text" id="searchTerm" name="searchTerm" placeholder="Entrez un nom ou un prénom">
+        <input type="submit" value="Rechercher">
+    </form>
+
+    <!-- Reste du contenu de votre page -->
+
+</body>
+</html>

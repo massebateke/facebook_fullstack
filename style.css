@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/l/font?kit=jAnfgHBgCsv4eNLTaMECf8DQsNS_exC-fGAj&skey=4ad46dd97873f7d7&v=v16) format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  /* greek */
+  @font-face {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/l/font?kit=jAnfgHBgCsv4eNLTaMECf8DQsNS4exC-fGAj&skey=4ad46dd97873f7d7&v=v16) format('woff2');
+    unicode-range: U+0370-03FF;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/l/font?kit=jAnfgHBgCsv4eNLTaMECf8DQsNS1exC-fGAj&skey=4ad46dd97873f7d7&v=v16) format('woff2');
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/l/font?kit=jAnfgHBgCsv4eNLTaMECf8DQsNS7exC-fGAj&skey=4ad46dd97873f7d7&v=v16) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+ 
+ body {
+
+    background-image: url(./images/5623076.jpg);
+    background-attachment: fixed;
+    background-image: 100vmin;
+    overflow:hidden;
+    width: 100%;
+ }
+
+ body {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #FFFFFF;
+    display: flex;
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+
+ }
+
+
+ label{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    /* identical to box height, or 16px */
+    align-items: center;
+
+    color: #FFFFFF;
+
+ }
+
+a{
+    color: #FFFFFF;
+}
+
+ .Intro{
+    position: absolute;
+    width: 664px;
+    height: 228px;
+    left: 71px;
+    top: 110px;
+
+ }
+
+ .infos1{
+    position: absolute;
+    width: 395px;
+    height: 280px;
+    left: 71px;
+    top: 328px;
+ }
+
+ .infos2{
+    position: absolute;
+    width: 395px;
+    height: 579px;
+    left: 954px;
+    top: 110px;
+ }
+
+ .Genre #choixHomme{
+    top: 40px;
+ }
+
+ .Titre{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    /* identical to box height, or 24px */
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+ }
+
+
+ .box-input{
+    width: 395px;
+    height: 37px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background: rgba(198, 202, 206, 0.9);
+    border: 3px solid #B5D9FD;
+    border-radius: 8px;
+}
+
+.radio-box{
+    height: 37px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background: rgba(198, 202, 206, 0.9);
+    border: 3px solid #B5D9FD;
+    border-radius: 8px;
+    vertical-align:-webkit-baseline-middle;
+}
+
+.box-register{
+   position: absolute;
+   margin-left: 62px;
+   margin-top: 70px;
+
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 17px;
+   color: #FFFFFF;
+   }
+
+.button{
+   line-height: 100%;
+   color: #101012;
+   position: absolute;
+   width: 170px;
+   height: 33px;
+   margin-left: 112px;
+   margin-top: 25px;
+   background: #C6CACE;
+   border: 3px solid #15940A;
+   box-shadow: 0px 12px 40px 8px rgba(0, 0, 0, 0.15);
+   border-radius: 8px;
+}
+
+
+#Inscrivez-vous{
+    padding-bottom: 25px;
+}
+
+#footer{
+    position: absolute;
+    left: 538px;
+    top: 820px;
+    display: flex;
+
+}

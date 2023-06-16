@@ -1,0 +1,60 @@
+.all-reaction{
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    background: #fff;
+    padding: 5px;
+    border: 1px solid #ededed;
+    border-radius: 20px;
+    display: none;
+} 
+
+.reaction{
+	width: 50px;
+	height: 50px;
+	transition:0.3s;
+}
+
+.react-con{
+	color:#969595;
+	cursor:pointer;
+    transition:0.3s;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 1px 2px rgb(4 4 4 / 30%);
+    box-shadow: 0 1px 2px rgb(4 4 4 / 30%);
+    background: #f7f7f7;
+    width: 55px;
+    display:inline-block;
+	margin-top: 10px;
+}
+
+.react-con:hover{
+	color:#84b4ce!important;
+	transition:0.3s;
+	-webkit-box-shadow: 0 1px 2px rgb(7 7 7 / 60%);
+    box-shadow: 0 1px 2px rgb(7 7 7 / 60%);
+}
+
+.reaction:hover {
+    width: 60px;
+    height: 60px;
+    transition: 0.3s;
+}
+
+.content{
+    background: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 20px;
+    border: 1px solid #c8c8c8;
+}
+
+.text{
+ color: #777474;
+ border: 1px solid #eae6e6;
+ padding: 10px;
+ text-align: center;
+ border-radius: 10px;
+}
+
